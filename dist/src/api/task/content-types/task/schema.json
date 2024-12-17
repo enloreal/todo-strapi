@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "tasks",
+    "info": {
+        "singularName": "task",
+        "pluralName": "tasks",
+        "displayName": "task",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "text": {
+            "type": "string",
+            "required": true
+        },
+        "completed": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        }
+    }
+}
