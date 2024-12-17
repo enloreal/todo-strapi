@@ -1,61 +1,40 @@
-# 🚀 Getting started with Strapi
+# Getting started with Strapi
 
-Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
+Before start, make sure you're using correct versions:
 
-### `develop`
+Node.js versions >=18.0.0 и <=22.x.x
+npm version >=6.0.0
 
-Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
+# use link to open in web-browser: http://localhost:1337
 
-```
-npm run develop
-# or
-yarn develop
-```
+# Clone the repository:
 
-### `start`
+git clone https://github.com/enloreal/todo-strapi.git
+cd todo-react
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+# install npm:
 
-```
-npm run start
-# or
-yarn start
-```
+npm install
+  or / или
+yarn install
 
-### `build`
+# to run admin panel:
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
 npm run build
-# or
+  or / или
 yarn build
-```
 
-## ⚙️ Deployment
+login: admin@admin.com
+password: Admin12345
 
-Strapi gives you many possible deployment options for your project including [Strapi Cloud](https://cloud.strapi.io). Browse the [deployment section of the documentation](https://docs.strapi.io/dev-docs/deployment) to find the best solution for your use case.
+# to run dev. build:
 
-```
-yarn strapi deploy
-```
+npm run develop
+  or / или
+yarn develop
 
-## 📚 Learn more
+# to run prod. build:
 
-- [Resource center](https://strapi.io/resource-center) - Strapi resource center.
-- [Strapi documentation](https://docs.strapi.io) - Official Strapi documentation.
-- [Strapi tutorials](https://strapi.io/tutorials) - List of tutorials made by the core team and the community.
-- [Strapi blog](https://strapi.io/blog) - Official Strapi blog containing articles made by the Strapi team and the community.
-- [Changelog](https://strapi.io/changelog) - Find out about the Strapi product updates, new features and general improvements.
-
-Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/strapi). Your feedback and contributions are welcome!
-
-## ✨ Community
-
-- [Discord](https://discord.strapi.io) - Come chat with the Strapi community including the core team.
-- [Forum](https://forum.strapi.io/) - Place to discuss, ask questions and find answers, show your Strapi project and get feedback or just talk with other Community members.
-- [Awesome Strapi](https://github.com/strapi/awesome-strapi) - A curated list of awesome things related to Strapi.
-
----
-
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+npm run start 
+  or / или 
+yarn start
