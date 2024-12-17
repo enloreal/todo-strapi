@@ -1,3 +1,10 @@
+# Desctiption:
+
+It's a backend Strapi for React+TS app to manage tasks in todo-list.
+
+src/api/task/controllers/seed.ts - task controller for adding 100k tasks
+src/api/task/routes/custom-routes.ts - routes (endpoints) for controller
+
 # Getting started with Strapi
 
 Before start, make sure you're using correct versions:
